@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(187, 186, 186);
+    width: 50%;
+    max-width: 50%;
+    padding-top: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section1 input[type="text"]{
+    width: 70%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.section1 input[type="submit"]{
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid;
+    color: black;
+    font-weight: 900;
+    font-size: large;
+    transition: 200ms;
 }
+.section1 input[type="submit"]:hover{
+    background-color: rgb(220, 220, 220);
+}
+.section2 h1{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.task-item{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+    border: solid black;
+    background-color: white;
+    margin-bottom: 10px;
+    
+}
+.task-item button{
+padding: 10px;
+border-radius: 5px;
+border: 5px black;
+margin-left: 5px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
